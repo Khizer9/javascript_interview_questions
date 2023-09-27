@@ -209,3 +209,27 @@
     //     }
     // }
     // console.log(longestWord)
+
+
+// Find max number without using max keyword
+
+// let arr = [1,4,2,6,9,2,12]
+// let largestNum = 0
+
+// for(i=0; i<=arr.length; i++){
+//     if(arr[i] > largestNum){
+//         largestNum = arr[i];
+//     }
+// }
+// console.log(largestNum)
+
+
+// Find average of an array
+// let arr = [1,4,2,6,9,2,12]
+// let sum = 0
+
+// for(i=0; i<arr.length; i++){
+//     sum += arr[i]
+// }
+// let averageNum = sum / arr.length
+// console.log(averageNum)
