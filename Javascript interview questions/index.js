@@ -233,3 +233,19 @@
 // }
 // let averageNum = sum / arr.length
 // console.log(averageNum)
+
+
+
+// Finding each letter count
+// let string = 'khizerrraaliiiii';
+
+// for (let i = 0; i < string.length; i++) {
+//   let count = 0;
+//   for (let j = 0; j < string.length; j++) {
+//     if (string[i] === string[j]) {
+//       count++;
+//     }
+//   }
+  
+//     console.log(string[i], count);
+//   }
