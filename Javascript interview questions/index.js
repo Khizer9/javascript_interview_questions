@@ -233,3 +233,20 @@
 // }
 // let averageNum = sum / arr.length
 // console.log(averageNum)
+
+
+// Reverse a string without keyword
+let myName = 'my name is khizer ali'
+
+// for(i = myName.length - 1; i>=0; i--){
+//     console.log(myName[i])
+// }
+
+// Second Method
+
+// let i = myName.length - 1
+
+// while(i>=0){
+//     console.log(myName[i])
+//     i--
+// }
