@@ -266,3 +266,34 @@
 //     console.log(myName[i])
 //     i--
 // }
+
+// Intersection of Array
+
+// let num1 = [2,4,5, 2, 2], num2 = [2,6, 2,4]
+// // output = [2,2]
+// let arr = []
+// for(let i = 0; i<num1.length; i++){
+//   for(let j = 0; j<num2.length; j++){
+//     if(num1[i] === num2[j]){
+//       if(arr.includes(num1[i])){
+//         break;
+//       }
+//       arr.push(num1[i], num2[j])
+//     }
+//   }
+// }
+
+// console.log(arr)
+
+// Reverse a number 
+
+// let a = 12345
+// With reverse keyword
+// const result = a.toString().split('').reverse().join('')
+// console.log(result)
+
+// without Reverse Keyword
+// a = a.toString()
+// for(let i = a.length - 1; i>=0; i--){
+//     console.log(a[i])
+// }
