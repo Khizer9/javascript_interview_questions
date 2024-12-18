@@ -297,3 +297,64 @@
 // for(let i = a.length - 1; i>=0; i--){
 //     console.log(a[i])
 // }
+
+
+// Reverse a sentence of a string 
+// hello world ==> olleh dlrow
+
+// const str = 'kya haal hain apke';
+
+// const reveredSent = str.split(" ").map((word) => word.split("").reverse().join(""))
+// console.log(reveredSent.join(" "), "sentt")
+
+
+
+// how to check Array because typeof [] ==> object
+
+// function checkArr (elem){
+//     return Array.isArray(elem)
+// }
+
+// console.log(checkArr([]))
+// console.log(checkArr({}))
+
+
+// how to reverse a number 
+// 123456 ==> 654321
+
+// function reverseNum(num){
+//     return num.toString().split("").reverse().join("")
+// }
+
+// console.log(reverseNum(123456))
+
+
+
+// find the word occurance in object
+// apple ==> {a:1, p:2, l:1, e:1}
+
+// function occurance(str){
+//     const occ = {}
+//     str.split("").forEach((elem)=> {
+//         if(occ.hasOwnProperty(elem) === false){
+//             occ[elem] = 1
+//         }else {
+//             occ[elem]++
+//         }
+//     })
+//     return occ
+// }
+// console.log(occurance("apple"))
+
+
+
+// Add all the numbers of an Array
+// [1,2,3,4,5,6,7,8] => 36
+
+// var num = [1,2,3,4,5,6,7,8]
+// let sum = 0;
+// for(let i =0; i< num.length; i++){
+//     sum = sum + num[i]
+// }
+
+// console.log(sum, "sum")
