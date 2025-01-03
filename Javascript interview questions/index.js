@@ -358,3 +358,21 @@
 // }
 
 // console.log(sum, "sum")
+
+
+// How to find second highest in arr of numbers
+// const number = [8,1,4,5,2,0,-6,1]
+
+// let maxNum = -Infinity
+// let secondHighest = -Infinity
+// for (let i = 0; i < number.length; i++) {
+//     if (number[i] > maxNum) {
+//         secondHighest = maxNum;
+//         maxNum = number[i]; 
+//     } 
+//     else if (number[i] > secondHighest && number[i] !== maxNum) {
+//         secondHighest = number[i]; 
+//     }
+// }
+// console.log(maxNum, "max")
+// console.log(secondHighest, "min")
