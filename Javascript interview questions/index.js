@@ -376,3 +376,65 @@
 // }
 // console.log(maxNum, "max")
 // console.log(secondHighest, "min")
+
+//  Find Anagram ==> cat == act ==> true
+// function isAnagram(str1, str2) {
+//   if(str1.length !== str2.length){
+//     return false
+//   }
+
+//   const char1Occ = {}
+//   for(let char of str1){
+//     if(!char1Occ[char]){
+//       char1Occ[char] = 1
+//     } else {
+//       char1Occ[char]++
+//     }
+//   }
+//   const char2Occ = {}
+//   for(let char of str2){
+//     if(!char2Occ[char]){
+//       char2Occ[char] = 1
+//     } else {
+//       char2Occ[char]++
+//     }
+//   }
+
+//   for(let key in char1Occ){
+//     if(char1Occ[key] !== char2Occ[key]){
+//       return false
+//     }
+//   }
+
+//   return true
+
+// }
+// console.log(isAnagram('act', 'cat')) true
+
+
+// Transpose Array ==> [
+//   [3,5,8],
+//   [9,7,1]
+// ] =====>     [ [3,9],[5,7],[8,1] ]
+// function transposeArr (arr) {
+//   const numberOfRows = arr.length;
+//   const numberOfColumns = arr[0].length;
+
+//   const result = []
+//   for(let i = 0; i < numberOfRows; i++){
+//     for(let j = 0; j < numberOfColumns; j++){
+//       if(!result[j]){
+//         result[j] = []
+//       }
+//       result[j][i] = arr[i][j]
+//     }
+//   }
+//   console.log(result)
+//   return result;
+// }
+
+// const matrix = [
+//   [3,5,8],
+//   [9,7,1]
+// ]
+// transposeArr(matrix)
